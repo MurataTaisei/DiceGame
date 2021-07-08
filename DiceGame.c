@@ -39,6 +39,9 @@ int main(){
         }
     }
   printf("Total value:%d\n",a[0]+a[1]);
-  
+  if(a[0]+a[1]>=7){
+    printf("You won\n");
+  }
+  else printf("You lost\n");
   return 0;
 }
